@@ -1,0 +1,135 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Seções */
+section {
+    margin: 40px 0;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Badges */
+.badges-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.badges-container img {
+    height: 28px;
+    transition: transform 0.2s;
+}
+
+.badges-container img:hover {
+    transform: translateY(-3px);
+}
+
+/* Formação e Cursos */
+.formacao-item, .curso-item, .projeto {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formacao-item {
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+}
+
+.curso-item {
+    background-color: #f0f8ff;
+    border-left: 4px solid #2980b9;
+}
+
+.instituicao {
+    color: #34495e;
+    font-weight: 600;
+}
+
+.periodo {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+/* Certificados */
+.certificado {
+    display: inline-block;
+    background-color: #2980b9;
+    color: white !important;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.certificado:hover {
+    background-color: #1a5276;
+}
+
+/* Projetos */
+.projeto {
+    background-color: #f5f6fa;
+    border-left: 4px solid #27ae60;
+}
+
+.projeto a {
+    color: #27ae60;
+}
+
+/* Contato */
+#contato p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#contato a {
+    color: #3498db;
+}
